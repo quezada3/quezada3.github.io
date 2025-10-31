@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="main.css">
   <style>
     body {
-      color: #333;
+      color: #222; /* darker text for better contrast */
       background-color: #f0f8ff; 
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       padding: 20px;
@@ -15,7 +15,7 @@
     }
 
     nav {
-      background-color: #0077b6;
+      background-color: #005f8e; /* darker blue to improve white text contrast */
       padding: 15px;
       text-align: center;
       margin-bottom: 20px;
@@ -35,23 +35,24 @@
     }
 
     h1 {
-      color: #ff6600;
+      color: #cc5500; /* slightly darker orange for contrast */
       text-align: center;
       margin-bottom: 30px;
     }
 
     h2 {
-      color: #ff6600;
+      color: #cc5500;
       margin-top: 30px;
     }
 
     p {
       line-height: 1.6;
       font-size: 1.1em;
+      color: #222;
     }
 
     .highlight {
-      color: #0077b6;
+      color: #004c80; /* darker blue for contrast */
       font-weight: bold;
     }
 
@@ -69,13 +70,13 @@
       width: 220px;
       padding: 15px;
       text-align: center;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* slightly darker shadow for visibility */
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     .gallery-card:hover {
       transform: translateY(-5px);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
     }
 
     .gallery-image {
@@ -86,13 +87,20 @@
 
     .image-description {
       font-style: italic;
-      color: #00509e;
+      color: #003366; /* dark navy for strong contrast */
     }
 
     .emoji-banner {
       text-align: center;
       font-size: 1.8em;
       margin-bottom: 20px;
+    }
+
+    footer, p.footer-note {
+      text-align: center;
+      font-size: 0.9em;
+      color: #333;
+      margin-top: 40px;
     }
   </style>
 </head>
@@ -151,9 +159,12 @@
       and reaffirmed my dedication to justice-centered work. 
     </p>
   </main>
+
+  <footer>
+    <p class="footer-note">
+      Icon images from <a href="https://www.flaticon.com/" target="_blank" rel="noopener" style="color:#004080;">Flaticon</a>.
+    </p>
+  </footer>
 </body>
 </html>
-<p style="text-align:center; font-size:0.9em; color:#555; margin-top:40px;">
-  Icon images from <a href="https://www.flaticon.com/" target="_blank" rel="noopener">Flaticon</a>.
-</p>
 
