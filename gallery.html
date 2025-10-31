@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery — Catherine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+  <style>
+    body {
+      color: #333;
+      background-color: #f0f8ff; 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 20px;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #0077b6;
+      padding: 15px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+      color: #ffcc00;
+    }
+
+    h1 {
+      color: #ff6600;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #ff6600;
+      margin-top: 30px;
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 1.1em;
+    }
+
+    .highlight {
+      color: #0077b6;
+      font-weight: bold;
+    }
+
+    .image-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      margin-bottom: 40px;
+    }
+
+    .gallery-card {
+      background-color: #ffffff;
+      border-radius: 15px;
+      width: 220px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .gallery-image {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 10px;
+    }
+
+    .image-description {
+      font-style: italic;
+      color: #00509e;
+    }
+
+    .emoji-banner {
+      text-align: center;
+      font-size: 1.8em;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="index.html">🏠 Home</a>
+    <a href="about.html">👩 About</a>
+    <a href="gallery.html">🖼️ Gallery</a>
+    <a href="hobbies.html">🎨 Hobbies</a>
+    <a href="contact.html">📧 Contact</a>
+  </nav>
+
+  <main>
+    <h1>⚖️ My Gallery</h1>
+
+    <div class="emoji-banner"></div>
+
+    <p style="text-align:center; max-width:700px; margin:0 auto 40px auto;">
+      Below are highlights from my academic and professional experiences—from justice-driven projects to creative learning initiatives. 
+      Each image represents a step in my journey toward becoming a <span class="highlight">corporate lawyer</span> and advocate for fairness and innovation.
+    </p>
+
+    <div class="image-container">
+      <div class="gallery-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3211/3211425.png" alt="Scales of Justice" class="gallery-image">
+        <p class="image-description">Passion for Law & Justice</p>
+      </div>
+
+      <div class="gallery-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Research Icon" class="gallery-image">
+        <p class="image-description">Academic Research in Political Science</p>
+      </div>
+
+      <div class="gallery-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3094/3094852.png" alt="Document Icon" class="gallery-image">
+        <p class="image-description">Writing and Legal Analysis</p>
+      </div>
+
+      <div class="gallery-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3062/3062634.png" alt="Teamwork Icon" class="gallery-image">
+        <p class="image-description">Collaboration and Advocacy Work</p>
+      </div>
+
+      <div class="gallery-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1048/1048953.png" alt="Computer Icon" class="gallery-image">
+        <p class="image-description">Exploring Legal Technology</p>
+      </div>
+    </div>
+
+    <h2>Professional Experience</h2>
+    <p>
+      I had the opportunity to work with the <span class="highlight">Vera Institute of Justice</span>, contributing to the <span class="highlight">Letter Campaign Project</span>,
+      which advocates for the rights and conditions of incarcerated individuals. In this role, I responded to letters from across the U.S.,
+      offering guidance and support to those impacted by the justice system. This experience deepened my empathy, strengthened my communication,
+      and reaffirmed my dedication to justice-centered work. 
+    </p>
+  </main>
+</body>
+</html>
+<p style="text-align:center; font-size:0.9em; color:#555; margin-top:40px;">
+  Icon images from <a href="https://www.flaticon.com/" target="_blank" rel="noopener">Flaticon</a>.
+</p>
+
